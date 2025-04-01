@@ -8,6 +8,7 @@ import { CldImage } from 'next-cloudinary'
 
 const Home = () => {
     const { machines, descriptions, partnersLogos, shopLinksTitle, shopProductLinks, serviceLink } = content.landingPage
+
     return (
         <div className='p-0 py-10 sm:p-8 flex flex-col gap-10'>
             <div className='flex flex-wrap gap-4 justify-center'>
