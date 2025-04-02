@@ -6,6 +6,8 @@ import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import { CldImage } from 'next-cloudinary'
 
+
+
 const Home = () => {
     const { machines, descriptions, partnersLogos, shopLinksTitle, shopProductLinks, serviceLink } = content.landingPage
     return (
