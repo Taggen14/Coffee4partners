@@ -36,7 +36,6 @@ import {
   SheetTitle,
 } from "@/components/ui/sheet";
 import { useHotkeys } from "react-hotkeys-hook";
-import Image from "next/image";
 import Link from "next/link";
 import { CldImage } from "next-cloudinary";
 
